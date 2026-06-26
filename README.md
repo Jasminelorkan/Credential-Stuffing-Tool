@@ -36,7 +36,7 @@ Most beginner cyber security projects detect obvious attacks which has same IP, 
 CREDENTIAL STUFFING DETECTION REPORT
 ...
 # =================================
-```
+
 Generated: 2026-06-24 18:26:11
 
 # SUMMARY
@@ -57,7 +57,7 @@ ALERT: 201 login attempts between 2023-10-10 13:00:00 and 2023-10-10 13:10:00 - 
 Block suspicious subnets immediately.
 Review all successful logins (200 status) for unauthorized access.
 Enable rate limiting on /login endpoint.
-
+```
 ## Tools Used
 
 - Python 3
