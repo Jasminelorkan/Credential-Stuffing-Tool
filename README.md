@@ -64,5 +64,5 @@ Enable rate limiting on /login endpoint.
 - Python Libraries - random and datetime
 - VS Code
 
-
-Veronica/and-mylinkedin-id
+## Author
+Jasmine Lorkan
