@@ -1,0 +1,24 @@
+==========================================
+CREDENTIAL STUFFING DETECTION REPORT
+Generated: 2026-06-24 18:26:11
+==========================================
+
+SUMMARY
+-------
+Total login attempts: 280
+Login failure rate: 91.79%
+First attempt: 2023-10-10 13:00:00
+Last attempt: 2023-10-10 13:58:12
+
+ALERTS
+------
+ALERT: High login failure rate detected - possible credential stuffing
+ALERT: 180 IPs from subnet 91.108.x.x hitting /login - possible distributed attack
+ALERT: 201 login attempts between 2023-10-10 13:00:00 and 2023-10-10 13:10:00 - possible burst attack
+
+RECOMMENDATION
+--------------
+Block suspicious subnets immediately.
+Review all successful logins (200 status) for unauthorized access.
+Enable rate limiting on /login endpoint.
+==========================================
